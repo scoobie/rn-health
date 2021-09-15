@@ -1,0 +1,31 @@
+<section class="vh-100" id="loginSection">
+  <div class="container py-4 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5 pb-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <h3 class="mb-5">Sign in</h3>
+
+            <form #loginForm="ngForm" (ngSubmit)="login()">
+            <div class="form-outline mb-4">
+              <input type="text"  class="form-control form-control-lg" name="username"
+                     [(ngModel)]="model.username" id="inputUserName" />
+              <label class="form-label" for="inputUserName">Username</label>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="password"  class="form-control form-control-lg" name="password"
+                     [(ngModel)]="model.password" id="inputPassword"/>
+              <label class="form-label" for="inputPassword">Password</label>
+            </div>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+            </form>
+            <hr class="my-4">
+            <a id="backbtn">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

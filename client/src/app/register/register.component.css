@@ -1,0 +1,24 @@
+#backbtn{
+  cursor: pointer;
+}
+
+.simple-login-container{
+  width:300px;
+  max-width:100%;
+  margin:50px auto;
+  padding: 20px;
+  border-radius: 7px;
+  background-color:#EEF2F6;
+}
+.container-fluid h2{
+  text-align:center;
+  font-size:2rem;
+}
+
+
+a{
+  color:#fff;
+}
+#backbtn:hover{
+  color: #ff471a;
+}

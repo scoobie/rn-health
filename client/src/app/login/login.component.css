@@ -1,0 +1,15 @@
+
+#backbtn:hover{
+  color: #ff471a;
+}
+#backbtn{
+  cursor: pointer;
+  color: #0046d5;
+  font-size: large;
+}
+
+#loginSection{
+  background: url("src/assets/bg2.jpg");
+  background-size: cover;
+  height: 100%;
+}
